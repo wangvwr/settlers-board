@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Board</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/reset.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+</head>
+<body>
+  <div class="margin"></div>
+  <!--div class="container"-->
+    <div class="custom-radios">
+      <div>
+        <input type="radio" id="color-1" name="color" value="stone" checked>
+        <label for="color-1">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+      
+      <div>
+        <input type="radio" id="color-2" name="color" value="wheat">
+        <label for="color-2">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+      
+      <div>
+        <input type="radio" id="color-3" name="color" value="wool">
+        <label for="color-3">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+
+      <div>
+        <input type="radio" id="color-4" name="color" value="wood">
+        <label for="color-4">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+
+      <div>
+        <input type="radio" id="color-5" name="color" value="clay">
+        <label for="color-5">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+
+      <div>
+        <input type="radio" id="color-6" name="color" value="desert">
+        <label for="color-6">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+
+      <div>
+        <input type="radio" id="color-7" name="color" value="default">
+        <label for="color-7">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+
+      <div>
+        <input type="radio" id="color-8" name="color" value="off">
+        <label for="color-8">
+          <span>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg" alt="Checked Icon" />
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="button-row">
+      <div class="buttons">
+        <img src='/images/undo-gray.png' alt="undo-icon" id="undo-icon" width="50" height="50" >
+      </div>
+      <div class="buttons">
+        <img src='/images/redo-gray.png' alt="redo-icon" id="redo-icon" width="50" height="50" >
+      </div>
+      <div class="buttons">
+         <img src='/images/random-gray.png' alt="random-icon" id="random-icon" width="50" height="50" >
+      </div>
+      <div class="buttons">
+        <img src='/images/clear-gray.png' alt="clear-icon" id="clear-icon" width="40" height="40" >
+      </div>
+    </div>
+
+  <div class="margin"></div>
+  <div class="container">
+    <div class="row first">
+      <a class="hex" id="hex0">&#x2B22;<span class="number port" id="number0">0</span></a>
+      <a class="hex" id="hex1">&#x2B22;<span class="number hide" id="number1">1</span></a>
+      <a class="hex" id="hex2">&#x2B22;<span class="number port" id="number2">2</span></a>
+      <a class="hex" id="hex3">&#x2B22;<span class="number hide" id="number3">3</span></a>
+    </div>
+
+    <div class="row second">
+      <a class="hex" id="hex4">&#x2B22;<span class="number hide" id="number4">4</span></a>
+      <a class="hex" id="hex5">&#x2B22;<span class="number" id="number5">5</span></a>
+      <a class="hex" id="hex6">&#x2B22;<span class="number" id="number6">6</span></a>
+      <a class="hex" id="hex7">&#x2B22;<span class="number" id="number7">7</span></a>
+      <a class="hex" id="hex8">&#x2B22;<span class="number port" id="number8">8</span></a>
+    </div>
+
+    <div class="row third">
+      <a class="hex" id="hex9">&#x2B22;<span class="number port" id="number9">9</span></a>
+      <a class="hex" id="hex10">&#x2B22;<span class="number" id="number10">10</span></a>
+      <a class="hex" id="hex11">&#x2B22;<span class="number" id="number11">11</span></a>
+      <a class="hex" id="hex12">&#x2B22;<span class="number" id="number12">12</span></a>
+      <a class="hex" id="hex13">&#x2B22;<span class="number" id="number13">13</span></a>
+      <a class="hex" id="hex14">&#x2B22;<span class="number hide" id="number14">14</span></a>
+    </div>
+
+    <div class="row fourth">
+      <a class="hex" id="hex15">&#x2B22;<span class="number hide" id="number15">15</span></a>
+      <a class="hex" id="hex16">&#x2B22;<span class="number" id="number16">16</span></a>
+      <a class="hex" id="hex17">&#x2B22;<span class="number" id="number17">17</span></a>
+      <a class="hex" id="hex18">&#x2B22;<span class="number" id="number18">18</span></a>
+      <a class="hex" id="hex19">&#x2B22;<span class="number" id="number19">19</span></a>
+      <a class="hex" id="hex20">&#x2B22;<span class="number" id="number20">20</span></a>
+      <a class="hex" id="hex21">&#x2B22;<span class="number port" id="number21">21</span></a>
+    </div>
+
+    <div class="row fifth">
+      <a class="hex" id="hex22">&#x2B22;<span class="number port" id="number22">22</span></a>
+      <a class="hex" id="hex23">&#x2B22;<span class="number" id="number23">23</span></a>
+      <a class="hex" id="hex24">&#x2B22;<span class="number" id="number24">24</span></a>
+      <a class="hex" id="hex25">&#x2B22;<span class="number" id="number25">25</span></a>
+      <a class="hex" id="hex26">&#x2B22;<span class="number" id="number26">26</span></a>
+      <a class="hex" id="hex27">&#x2B22;<span class="number hide" id="number27">27</span></a>
+    </div>
+
+    <div class="row sixth">
+      <a class="hex" id="hex28">&#x2B22;<span class="number hide" id="number28"></span></a>
+      <a class="hex" id="hex29">&#x2B22;<span class="number" id="number29">29</span></a>
+      <a class="hex" id="hex30">&#x2B22;<span class="number" id="number30">30</span></a>
+      <a class="hex" id="hex31">&#x2B22;<span class="number" id="number31">31</span></a>
+      <a class="hex" id="hex32">&#x2B22;<span class="number port" id="number32">3</span></a>
+    </div>
+
+    <div class="row seventh">
+      <a class="hex" id="hex33">&#x2B22;<span class="number port" id="number33">3</span></a>
+      <a class="hex" id="hex34">&#x2B22;<span class="number hide" id="number34">34</span></a>
+      <a class="hex" id="hex35">&#x2B22;<span class="number port" id="number35">3</span></a>
+      <a class="hex" id="hex36">&#x2B22;<span class="number hide" id="number36">34</span></a>
+    </div>
+  </div>
+  <script src="board.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+body {
+  background: 'white';
+}
+
+.container {
+  margin-left: 100px;
+}
+
+.margin {
+  margin-top: -10px;
+}
+
+.hex {
+  display: inline-block;
+  color: white;
+  font-size: 135px;
+  margin: -10px;
+  padding: 0px;
+  -webkit-margin-start: -5px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.number {
+  display: inline-block;
+  position: relative;
+  margin: 1px;
+  width: 1px; 
+  bottom: 30px;
+  color: black;
+  font: 50px Roboto, Arial;
+  font-size: 50px;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+.port {
+  bottom: 40px;
+  font-size: 25px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.first {
+  margin-left: 135px;
+  -webkit-margin-start: 135px;
+}
+
+.second {
+  margin-top: -72px;
+  margin-left: 90px;
+  -webkit-margin-start: 94px;
+}
+
+.third {
+  margin-top: -72px;
+  margin-left: 45px; 
+  -webkit-margin-start: 53px;
+}
+
+.fourth {
+  margin-top: -72px;
+  margin-left: 0px;
+  -webkit-margin-start: 12px;
+}
+
+.fifth {
+  margin-top: -72px;
+  margin-left: 45px;
+  -webkit-margin-start: 53px;
+}
+
+.sixth {
+  margin-top: -72px;
+  margin-left: 90px;
+  -webkit-margin-start: 94px;
+}
+
+.seventh {
+  margin-top: -72px;
+  margin-left: 135px;
+  -webkit-margin-start: 135px;
+}
+
+.buttons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-row {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+/* Custom radios 
+Dronca Raul 2017
+https://codepen.io/rauldronca/pen/EWLeMz 
+*/
+
+.custom-radios {
+  margin-top: 10px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.custom-radios div {
+  display: inline-block;
+  margin: 10px;
+}
+.custom-radios input[type="radio"] {
+  display: none;
+}
+.custom-radios input[type="radio"] + label {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.custom-radios input[type="radio"] + label span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 44px;
+}
+.custom-radios input[type="radio"] + label span img {
+  vertical-align: middle;
+  width: 50%;
+  opacity: 0;
+  transition: all .3s ease;
+}
+.custom-radios input[type="radio"]#color-1 + label span {
+  /*background-color: #B5A9AB;*/
+  background-color: rgb(179, 179, 179);
+}
+.custom-radios input[type="radio"]#color-2 + label span {
+  /*background-color: #D8A90F;*/
+  background-color: rgb(244, 180, 0);
+}
+.custom-radios input[type="radio"]#color-3 + label span {
+  /*background-color: #B0C21E;*/
+  background-color: rgb(164, 198, 57);
+}
+.custom-radios input[type="radio"]#color-4 + label span {
+  /*background-color: #406628;*/
+  background-color: rgb(15, 157, 88);
+}
+.custom-radios input[type="radio"]#color-5 + label span {
+  /*background-color: #BD4D29;*/
+  background-color: rgb(219, 68, 55);
+}
+.custom-radios input[type="radio"]#color-6 + label span {
+  /*background-color: #998317;*/
+  background-color: rgb(198, 162, 57);
+}
+.custom-radios input[type="radio"]#color-7 + label span {
+  /*background-color: #FFFFFF;*/
+  background-color: rgb(66, 133, 244);
+}
+.custom-radios input[type="radio"]#color-8 + label span {
+  background-color: #000000;
+}
+.custom-radios input[type="radio"]:checked + label span img {
+  opacity: 1;
+}
