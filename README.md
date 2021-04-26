@@ -4,4 +4,4 @@ A virtual board that allows users to play Settlers of Catan remotely.  Users hav
 
 [Demo](https://board01.herokuapp.com)
 
-[Blank board](public/images/blank-board.png)
+![Blank board](public/images/blank-board.PNG)
