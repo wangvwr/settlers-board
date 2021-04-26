@@ -6,6 +6,6 @@ A virtual board that allows users to play Settlers of Catan remotely.  Users hav
 
 <img src="public/images/blank-board.PNG" alt="blank board" width="500px"/>
 
-<img src="public/images/randomized-board.PNG" alt="blank board" width="25%"/>
+<img src="public/images/randomized-board.PNG" alt="blank board" width="500px"/>
 
-<img src="public/images/manual-input.PNG" alt="blank board" width="25%"/>
+<img src="public/images/manual-input.PNG" alt="blank board" width="500px"/>
